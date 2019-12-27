@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import { NavigationScreenProp, NavigationState } from "react-navigation";
 import { SCREEN_WIDTH, SCREEN_HEIGHT } from "../../styles/styles";
-import HeaderHome from "../../components/HeaderHome";
+import HeaderHome from "../../components/headerHome/HeaderHome";
 
 interface Props {
     navigation: NavigationScreenProp<NavigationState & any>;
