@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity } from "react-native";
 import { NavigationScreenProp, NavigationState } from "react-navigation";
 import { SCREEN_WIDTH, SCREEN_HEIGHT } from "../../styles/styles";
 import HeaderHome from "../../components/HeaderHome";
+import FBLoginButton from "../../components/LoginFacebookButton";
 
 interface Props {
     navigation: NavigationScreenProp<NavigationState & any>;
@@ -22,6 +23,7 @@ export default class Home extends Component<Props, State> {
             >
                 <HeaderHome />
                 <Text>Home!</Text>
+                <FBLoginButton />
             </View>
         );
     }
