@@ -6,7 +6,7 @@ import { SearchBar } from "react-native-elements";
 import { styles } from "./headerHomeStyles.js";
 
 interface Props {
-    navigation: NavigationScreenProp<NavigationState & any>;
+    navigation?: NavigationScreenProp<NavigationState & any>;
 }
 interface State {
     searchText: string;
