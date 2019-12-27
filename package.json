@@ -24,7 +24,7 @@
     "react": "16.8.3",
     "react-native": "0.59.3",
     "react-native-elements": "^1.1.0",
-    "react-native-fbsdk": "^0.8.0",
+    "react-native-fbsdk": "^0.10.0",
     "react-native-gesture-handler": "^1.1.0",
     "react-navigation": "^3.6.1",
     "typescript": "^3.4.2"
@@ -33,9 +33,11 @@
     "@types/jest": "^23.3.12",
     "@types/react": "^16.7.18",
     "@types/react-native": "^0.57.25",
+    "@types/react-native-fbsdk": "^1.0.0",
     "@types/react-test-renderer": "^16.0.3",
     "babel-jest": "23.6.0",
     "jest": "23.6.0",
+    "jetifier": "^1.6.5",
     "metro-react-native-babel-preset": "0.51.1",
     "react-test-renderer": "16.6.3",
     "typescript": "^3.2.2"
